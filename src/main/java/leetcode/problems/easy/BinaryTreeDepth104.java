@@ -42,7 +42,6 @@ public class BinaryTreeDepth104 {
 
         int left = maxDepthWithLogging(root.left, level + 1);
         int right = maxDepthWithLogging(root.right, level + 1);
-
         int result = 1 + Math.max(left, right);
 
         System.out.println(indent + "Узел " + root.val +
@@ -50,6 +49,4 @@ public class BinaryTreeDepth104 {
 
         return result;
     }
-
-
 }

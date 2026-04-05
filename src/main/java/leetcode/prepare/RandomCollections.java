@@ -33,7 +33,6 @@ public class RandomCollections {
         for (int i = 0; i < size; i++) {
             int integer = random.nextInt(min, max);
             array[i] = integer;
-            i++;
         }
         return array;
     }
